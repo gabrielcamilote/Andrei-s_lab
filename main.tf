@@ -8,9 +8,9 @@ terraform {
  # Configuration options
   # Credentials for only Equinix Metal resources
 provider "equinix" {
-  auth_token = "5DeAUudqaVwRJsuuTMpa2xrrqSwpj1X7"
-  client_id = "FAAR2mEAtUeMUl5doPTSGGcDKRIdiZgq5wKJAHmqjJ4kpQpw"
-  client_secret = "LjIjVQdTY96btnL9vrJ0xoMNk0MY8oQIpejkh87zoRorCvsYaVKA7bjWogDJe39e"
+  auth_token = ""
+  client_id = ""
+  client_secret = ""
 
 }
 # Create a new VLAN in metro "da"
