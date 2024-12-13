@@ -7,8 +7,8 @@ terraform {
 }
 
 provider "equinix" {
-  client_id = "7RtZZw2Eq50PvRdP5iDDl2G7kIN2NM2HcQGCek1jUiH5cFjS"
-  client_secret = "m0PZyT4lyU2gQseWZLEmPjOa1ze7mma9BkCEaU5IEN4iPkqWUe03v3KW84MP5iFN"
+  client_id = ""
+  client_secret = ""
   }
 resource "equinix_network_device" "cisco8kv-ha" {
 name            = "camilote-c8000v-pri"
